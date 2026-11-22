@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081f5c">
+  <meta name="description" content="SteadBridge connects customers and businesses, creating opportunities through a growing online marketplace.">
+  <title>SteadBridge | Connecting Businesses, Creating Opportunities</title>
+  <style>
+    :root{--navy:#081f5c;--deep:#061a4d;--orange:#ff8a00;--ink:#14213d;--muted:#667085;--paper:#f7f9fc;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+    a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #061a4d22}
+    .nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-size:1.25rem;font-weight:800;letter-spacing:.2px}
+    .mark{width:38px;height:38px;border-radius:12px;background:var(--orange);display:grid;place-items:center;color:var(--deep);font-weight:900;font-size:1.25rem}
+    nav{display:flex;gap:24px;align-items:center}nav a{text-decoration:none;color:#e8edff;font-size:.95rem}nav a:hover{color:#ffbd70}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--orange);color:var(--deep);font-weight:800;text-decoration:none;padding:12px 19px;border-radius:10px;border:0}
+    .hero{background:linear-gradient(135deg,var(--navy),#102f78 70%,#173b87);color:white;padding:86px 0 92px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:center}
+    .eyebrow{color:#ffc078;font-weight:800;text-transform:uppercase;letter-spacing:1.7px;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.06;letter-spacing:-1.8px;margin:15px 0 20px}
+    .hero p{font-size:1.13rem;color:#e0e7ff;max-width:620px;margin:0 0 28px}
+    .hero-actions{display:flex;gap:13px;flex-wrap:wrap}.btn-outline{border:1px solid #ffffff80;color:#fff;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:700}
+    .hero-art{min-height:300px;border:1px solid #ffffff30;border-radius:28px;background:linear-gradient(145deg,#ffffff1c,#ffffff08);padding:25px;display:flex;flex-direction:column;justify-content:center;gap:14px;box-shadow:0 25px 70px #0002}
+    .art-card{background:#fff;color:var(--navy);border-radius:15px;padding:17px 19px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 10px 25px #0002}
+    .art-card strong{display:block}.art-card small{color:var(--muted)}.art-icon{width:44px;height:44px;border-radius:12px;background:#fff0df;display:grid;place-items:center;font-size:1.35rem}
+    section{padding:74px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;color:var(--navy);margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid #e7ebf2;border-radius:18px;padding:25px;background:#fff;box-shadow:0 10px 28px #081f5c08}
+    .card-icon{width:48px;height:48px;border-radius:14px;background:#fff1df;display:grid;place-items:center;font-size:1.45rem;margin-bottom:17px}.card h3{color:var(--navy);margin:0 0 8px}.card p{color:var(--muted);margin:0}
+    .how{background:var(--paper)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{padding:22px;border-left:3px solid var(--orange);background:white;border-radius:0 14px 14px 0}.step b{color:var(--navy);font-size:1.1rem}
+    .download{background:var(--deep);color:white;text-align:center}.download h2{font-size:clamp(1.9rem,4vw,2.8rem);margin:0 0 12px}.download p{color:#d7def5;max-width:650px;margin:0 auto 24px}
+    .notice{font-size:.88rem;color:#c5cde5;margin-top:15px}
+    .contact-box{background:#fff8ef;border:1px solid #ffe0ba;border-radius:18px;padding:26px;text-align:center}.contact-box h2{color:var(--navy);margin:0 0 8px}.contact-box p{color:var(--muted);margin:0}
+    footer{background:#04143d;color:#cbd4ef;padding:28px 0}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}.foot a{color:#fff;text-decoration:none;margin-left:16px;font-size:.9rem}
+    @media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero{padding:65px 0}.hero-art{min-height:230px}.cards,.steps{grid-template-columns:1fr}nav{gap:12px}nav a:not(.nav-cta){display:none}.nav-cta{padding:10px 12px;font-size:.86rem}section{padding:58px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="mark">S</span><span>SteadBridge</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#how">How it works</a><a href="#businesses">For businesses</a>
+      <a class="nav-cta" href="#download">Get the app</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">A marketplace built around opportunity</div>
+        <h1>Connecting Businesses, Creating Opportunities.</h1>
+        <p>SteadBridge brings customers and businesses together in one marketplace—helping people discover products and helping businesses reach more customers.</p>
+        <div class="hero-actions"><a class="btn" href="#download">Explore the app</a><a class="btn-outline" href="#businesses">For businesses</a></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a marketplace connecting customers and businesses">
+        <div class="art-card"><span><strong>Discover products</strong><small>Explore marketplace listings</small></span><span class="art-icon">🛍️</span></div>
+        <div class="art-card"><span><strong>Connect with sellers</strong><small>Find businesses and offers</small></span><span class="art-icon">🤝</span></div>
+        <div class="art-card"><span><strong>Create opportunities</strong><small>Grow through connection</small></span><span class="art-icon">📈</span></div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">About SteadBridge</div><h2>A bridge between businesses and customers</h2><p>Our goal is to make it easier for customers to discover businesses and products, while giving participating businesses a place to showcase what they offer.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">🔎</div><h3>Discover</h3><p>Browse products and explore businesses in one convenient marketplace.</p></article>
+        <article class="card"><div class="card-icon">🏪</div><h3>Showcase</h3><p>Give businesses an online place to present their products and connect with potential customers.</p></article>
+        <article class="card"><div class="card-icon">🤝</div><h3>Connect</h3><p>Bring buyers and sellers closer with a straightforward marketplace experience.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="how" id="how">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Getting started</div><h2>How SteadBridge works</h2><p>A simple starting point for customers and participating businesses.</p></div>
+      <div class="steps">
+        <div class="step"><b>1. Explore</b><p>Customers browse available products and business listings.</p></div>
+        <div class="step"><b>2. Connect</b><p>Customers choose products and place orders through the app when available.</p></div>
+        <div class="step"><b>3. Fulfil</b><p>The seller coordinates order preparation and delivery with the customer.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="businesses">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">For businesses</div><h2>Bring your business to SteadBridge</h2><p>We are building a network of genuine businesses with reliable products, accurate stock information and customer-focused service.</p></div>
+      <div class="contact-box"><h2>Interested in joining?</h2><p>Business onboarding and participation details will be shared through SteadBridge's official contact channels once they are published.</p></div>
+    </div>
+  </section>
+  <section class="download" id="download">
+    <div class="wrap">
+      <div class="eyebrow">Android application</div>
+      <h2>Take SteadBridge with you</h2>
+      <p>The Android app download will be added here after the release file and installation instructions are published.</p>
+      <a class="btn" href="mailto:steadbridge.contact@example.com?subject=SteadBridge%20app%20updates">Ask about app availability</a>
+      <div class="notice">Please replace the sample contact address before publishing this website. Do not share unofficial APK files.</div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap foot"><div>© <span id="year"></span> SteadBridge. Connecting Businesses, Creating Opportunities.</div><div><a href="privacy.html">Privacy information</a><a href="mailto:steadbridge.contact@example.com">Contact</a></div></div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
